@@ -1,5 +1,4 @@
-
-{
+events = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -13,7 +12,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [41.3115,-72.9296]}
-      }
+      },
     {
       "type": "Feature",
       "properties": {
@@ -25,7 +24,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [41.3110,-72.9329]}
-      }
+      },
     {
       "type": "Feature",
       "properties": {
@@ -37,7 +36,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [41.30666544,-72.922162978]}
-      }
+      },
     {
       "type": "Feature",
       "properties": {
