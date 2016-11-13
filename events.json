@@ -1,5 +1,55 @@
-events(
-    {"name": "Toad's Place", "lattitude": 41.3115, "longitude": -72.9296}
-    {"name": "Sigma Chi", "lattitude": 41.3110, "longitude": -72.9329}
-    {"name": "Woolsey Hall", "lattitude":41.30666544, "longitude": -72.922162978}
-    )
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Toad's Place",
+        "time": "11:00 PM -1:00 AM",
+        "address": "300 York St, New Haven, CT 06511",
+        "party": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.3115,-72.9296]}
+      }
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sigma Chi",
+        "time": "11:00 PM -12:00 AM",
+        "address": "33 Lynwood Pl, New Haven, CT 06511",
+        "party": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.3110,-72.9329]}
+      }
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Woolsey Hall",
+        "time": "8:00 PM -9:00 PM",
+        "address": "500 College St, New Haven, CT 06511",
+        "party": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.30666544,-72.922162978]}
+      }
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Alpha Epsilon Pi",
+        "time": "8:00 PM -9:00 PM",
+        "address": "395 Crown St., New Haven, CT 06511",
+        "party": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.30845,-72.93503]}
+      }  
+    ]
+}
+
