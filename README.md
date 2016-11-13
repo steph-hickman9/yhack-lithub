@@ -1,2 +1,2 @@
 # yhack-lithub
-## Davey is the best
+## Davey is the worst
