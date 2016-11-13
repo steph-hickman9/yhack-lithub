@@ -1,0 +1,5 @@
+events(
+    {"name": "Toad's Place", "lattitude": 41.3115, "longitude": -72.9296}
+    {"name": "Sigma Chi", "lattitude": 41.3110, "longitude": -72.9329}
+    {"name": "Woolsey Hall", "lattitude":41.30666544, "longitude": -72.922162978}
+    )
