@@ -4,7 +4,7 @@ from flask import Flask, jsonify, render_template, request, url_for
 from flask_jsglue import JSGlue
 
 # from cs50 import SQL
-import sql.py
+import sql
 from helpers import lookup
 
 # configure application
