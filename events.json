@@ -1,36 +1,39 @@
-events(
-    {"name": "Toad's Place", "lattitude": 41.3115, "longitude": -72.9296}
-    {"name": "Sigma Chi", "lattitude": 41.3110, "longitude": -72.9329}
-    {"name": "Woolsey Hall", "lattitude":41.30666544, "longitude": -72.922162978}
-    )
-    
-    {"type":"Feature",
-    "properties":
+{
+  "type": "FeatureCollection",
+  "features": [
     {
-        "mag":3.5,
-        "place":"96km NNE of Chignik Lake, Alaska",
-        "time":1478999213457,
-        "updated":1479000143399,
-        "tz":-540,
-        "url":"http://earthquake.usgs.gov/earthquakes/eventpage/ak14320937",
-        "detail":"http://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak14320937.geojsonp",
-        "felt":null,
-        "cdi":null,
-        "mmi":null,
-        "alert":null,
-        "status":"automatic",
-        "tsunami":0,
-        "sig":188,
-        "net":"ak",
-        "code":"14320937",
-        "ids":",ak14320937,",
-        "sources":",ak,",
-        "types":",general-link,geoserve,origin,",
-        "nst":null,
-        "dmin":null,
-        "rms":0.94,
-        "gap":null,
-        "magType":"ml",
-        "type":"earthquake",
-    "title":"M 3.5 - 96km NNE of Chignik Lake, Alaska"},
-    "geometry":{"type":"Point","coordinates":[-157.9156,56.9885,26.4]},"id":"ak14320937"},
+      "type": "Feature",
+      "properties": {
+        "title": "Toad's Place",
+        "time": "11:00 PM -1:00 AM",
+        "status": "lit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.3115,-72.9296]}
+      }
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sigma Chi",
+        "time": "11:00 PM -12:00 AM",
+        "status": "lit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.3110,-72.9329]}
+      }
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Woolsey Hall",
+        "time": "8:00 PM -9:00 PM",
+        "status": "lit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.30666544,-72.922162978]}
+      }
+    ]
+}
+    
