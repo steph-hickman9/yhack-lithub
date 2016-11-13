@@ -1,7 +1,7 @@
 # import Flask class
 from flask import Flask, g, session, render_template, redirect, url_for, request, jsonify, abort
 
-import utils.py
+# import utils.py
 
 app = Flask(__name__) 
 
