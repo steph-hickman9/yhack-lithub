@@ -3,7 +3,8 @@ import re
 from flask import Flask, jsonify, render_template, request, url_for
 from flask_jsglue import JSGlue
 
-from cs50 import SQL
+# from cs50 import SQL
+import sql.py
 from helpers import lookup
 
 # configure application
