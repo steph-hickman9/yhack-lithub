@@ -1,5 +1,6 @@
 events(
-    {"name": "Toad's Place", "lattitude": 41.3115, "longitude": -72.9296}
-    {"name": "Sigma Chi", "lattitude": 41.3110, "longitude": -72.9329}
-    {"name": "Woolsey Hall", "lattitude":41.30666544, "longitude": -72.922162978}
+    {"name": "Toad's Place", "address": "300 York St, New Haven, CT 06511", "latitude": 41.3115, "longitude": -72.9296, "party": true}
+    {"name": "Sigma Chi", "address": "33 Lynwood Pl, New Haven, CT 06511", "latitude": 41.3110, "longitude": -72.9329, "party": false}
+    {"name": "Woolsey Hall", "address": "500 College St, New Haven, CT 06511", "latitude":41.30666544, "longitude": -72.922162978, "party": true}
+    {"name": "Alpha Epsilon Pi", "address": "395 Crown St., New Haven, CT 06511", "latitude": 41.30845, "longitude": -72.93503, "party": false}
     )
